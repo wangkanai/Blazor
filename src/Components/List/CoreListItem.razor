@@ -1,0 +1,15 @@
+﻿@namespace Wangkanai.Blazor
+@inherits Wangkanai.Blazor.BaseListItem
+
+@if (Href == null || Disable)
+{
+    <li>
+        @ChildContent
+    </li>
+}
+else
+{
+    <a href="@Href">
+        @ChildContent
+    </a>
+}
