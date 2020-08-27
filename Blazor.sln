@@ -9,6 +9,10 @@ ProjectSection(SolutionItems) = preProject
 	md-styles.css = md-styles.css
 EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BEB6ED79-A2BE-44DA-B394-B5032D45E5C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagValidation", "sample\TagValidation\TagValidation.csproj", "{66FD613E-F2AF-4E19-BC3C-A46AF43BD1EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,12 @@ Global
 		{1C3B84FD-A2A9-464F-8C3A-E091E56B9B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C3B84FD-A2A9-464F-8C3A-E091E56B9B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C3B84FD-A2A9-464F-8C3A-E091E56B9B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FD613E-F2AF-4E19-BC3C-A46AF43BD1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FD613E-F2AF-4E19-BC3C-A46AF43BD1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FD613E-F2AF-4E19-BC3C-A46AF43BD1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FD613E-F2AF-4E19-BC3C-A46AF43BD1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66FD613E-F2AF-4E19-BC3C-A46AF43BD1EA} = {BEB6ED79-A2BE-44DA-B394-B5032D45E5C5}
 	EndGlobalSection
 EndGlobal
